@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#0B1020" />
+<title>Support — JPMASTOCK</title>
+<meta name="description" content="JPMASTOCK support. Contact chekinaekaterina093@gmail.com for questions, feedback, or bug reports about the JPMASTOCK iPhone app." />
+<link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230B1020'/><path d='M10 44 L22 32 L32 38 L44 22 L54 28' stroke='%237CC7FF' stroke-width='4' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>" />
+<style>
+  :root{--bg:#0B1020;--bg2:#0F1530;--panel:#121a36;--panel2:#172149;--line:rgba(255,255,255,.08);--text:#EAF0FF;--muted:#9AA6C7;--brand:#7CC7FF;--brand2:#A78BFA;--green:#22C55E}
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.7}
+  a{color:var(--brand);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .container{max-width:980px;margin:0 auto;padding:0 24px}
+  header{position:sticky;top:0;z-index:50;backdrop-filter:saturate(160%) blur(14px);background:rgba(11,16,32,.72);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:700}
+  .brand-mark{width:30px;height:30px;border-radius:8px;background:linear-gradient(135deg,#1B2A55,#0B1020);display:grid;place-items:center;border:1px solid var(--line)}
+  .brand-mark svg{width:18px;height:18px}
+  nav ul{list-style:none;display:flex;gap:22px;margin:0;padding:0}
+  nav ul a{color:var(--muted);font-size:14px}
+  nav ul a:hover{color:var(--text);text-decoration:none}
+  .nav-cta{background:linear-gradient(135deg,var(--brand),var(--brand2));color:#0B1020 !important;font-weight:600;padding:9px 14px;border-radius:10px;font-size:14px}
+  .page{padding:56px 0 72px}
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;background:rgba(124,199,255,.08);color:var(--brand);padding:6px 12px;border-radius:999px;font-size:12px;letter-spacing:.4px;text-transform:uppercase;border:1px solid rgba(124,199,255,.18)}
+  h1{font-size:38px;line-height:1.1;margin:18px 0 8px;letter-spacing:-.02em;font-weight:700}
+  .sub{color:var(--muted);font-size:16px;margin:0 0 28px;max-width:680px}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:18px 0}
+  .card{background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid var(--line);border-radius:16px;padding:22px}
+  .card h3{margin:0 0 10px;font-size:18px}
+  .card p{margin:0 0 12px;color:var(--muted);font-size:14px}
+  .badge{display:inline-block;background:rgba(34,197,94,.12);color:var(--green);font-size:12px;padding:3px 8px;border-radius:6px;border:1px solid rgba(34,197,94,.3);margin-bottom:12px}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:13px 18px;border-radius:12px;font-weight:600;font-size:15px;border:1px solid transparent;transition:transform .15s ease, filter .15s ease;background:linear-gradient(135deg,var(--brand),var(--brand2));color:#0B1020}
+  .btn:hover{filter:brightness(1.05);transform:translateY(-1px);text-decoration:none}
+  .contact-card{background:linear-gradient(135deg,rgba(124,199,255,.1),rgba(167,139,250,.06));border:1px solid rgba(124,199,255,.25);border-radius:18px;padding:28px;text-align:center;margin:32px 0}
+  .contact-card .email{font-size:24px;font-weight:700;margin:8px 0 6px;display:block;color:var(--text)}
+  .faq details{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin-bottom:10px}
+  .faq summary{cursor:pointer;font-weight:600;color:var(--text);list-style:none}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::before{content:"+";display:inline-block;width:18px;color:var(--brand);font-weight:700}
+  .faq details[open] summary::before{content:"–"}
+  .faq details p{color:var(--muted);font-size:14px;margin:10px 0 0}
+  .steps{counter-reset:step;list-style:none;padding:0}
+  .steps li{counter-increment:step;position:relative;padding-left:42px;margin-bottom:14px;color:#C7D0EA;font-size:15px}
+  .steps li::before{content:counter(step);position:absolute;left:0;top:0;width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,var(--brand),var(--brand2));color:#0B1020;display:grid;place-items:center;font-weight:700;font-size:13px}
+  footer{border-top:1px solid var(--line);padding:32px 0;color:var(--muted);font-size:14px}
+  .foot{display:flex;flex-wrap:wrap;gap:18px;justify-content:space-between;align-items:center}
+  .foot ul{list-style:none;display:flex;gap:18px;margin:0;padding:0}
+  .foot a{color:var(--muted)}
+  .foot a:hover{color:var(--text);text-decoration:none}
+  @media (max-width:780px){
+    nav ul{display:none}
+    h1{font-size:30px}
+    .grid{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <a href="index.html" class="brand" aria-label="JPMASTOCK home">
+      <span class="brand-mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#7CC7FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17 L9 11 L15 15 L21 6"/></svg>
+      </span>
+      <span>JPMA<span style="color:var(--brand)">STOCK</span></span>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="terms.html">Terms</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+      </ul>
+    </nav>
+    <a class="nav-cta" href="mailto:chekinaekaterina093@gmail.com">Email Support</a>
+  </div>
+</header>
+
+<main class="page">
+  <div class="container">
+    <span class="eyebrow">Support</span>
+    <h1>We're here to help.</h1>
+    <p class="sub">JPMASTOCK is a small, privacy-respecting product. The fastest way to reach a real person is email. We read every message and reply as quickly as we can.</p>
+
+    <div class="contact-card">
+      <span class="badge">● Preferred channel</span>
+      <p style="margin:0;color:var(--muted);font-size:14px">Support email</p>
+      <a class="email" href="mailto:chekinaekaterina093@gmail.com">chekinaekaterina093@gmail.com</a>
+      <a class="btn" href="mailto:chekinaekaterina093@gmail.com?subject=JPMASTOCK%20Support">Open Mail App</a>
+      <p style="margin:14px 0 0;color:var(--muted);font-size:13px">Please include your iOS version, iPhone model, and a screenshot if possible.</p>
+    </div>
+
+    <h2 style="font-size:22px;margin:24px 0 14px">What we can help with</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Bug reports</h3>
+        <p>If something looks off — a chart doesn't render, an export didn't include a row, a date parses the wrong way — tell us what you expected vs. what happened. Screenshots and screen recordings help a lot.</p>
+      </div>
+      <div class="card">
+        <h3>Feature requests</h3>
+        <p>Have an idea that would make JPMASTOCK more useful for your workflow? Send it over. Many improvements in this user product began as a single email from a user.</p>
+      </div>
+      <div class="card">
+        <h3>Data export help</h3>
+        <p>If you need help exporting your journal as JSON or CSV for tax reconciliation, or if the in-app "Reset all data" control isn't behaving as you expect, reach out and we'll guide you.</p>
+      </div>
+      <div class="card">
+        <h3>Refund &amp; App Store issues</h3>
+        <p>For refunds or subscription issues, Apple's App Store handles billing. Use <em>Report a Problem</em> on the App Store, or contact us and we will point you to the right place.</p>
+      </div>
+    </div>
+
+    <h2 style="font-size:22px;margin:32px 0 14px">Before you write — quick checklist</h2>
+    <ol class="steps">
+      <li>Make sure you're on the latest version of JPMASTOCK from the App Store.</li>
+      <li>Confirm your iPhone is running iOS 16.0 or later (Settings → General → Software Update).</li>
+      <li>Try restarting the app: swipe up from the bottom and close JPMASTOCK, then reopen it.</li>
+      <li>If the issue persists, write to us with as much detail as you can.</li>
+    </ol>
+
+    <h2 style="font-size:22px;margin:32px 0 14px">Frequently asked questions</h2>
+    <div class="faq">
+      <details>
+        <summary>Does JPMASTOCK connect to the internet?</summary>
+        <p>No. JPMASTOCK does not transmit your trade records, watchlist, notes, or photos to any server. It does not contain analytics SDKs or advertising SDKs. The only outbound communications are actions you take (opening a mailto link, opening Safari for this Support page, or using Apple's App Store).</p>
+      </details>
+      <details>
+        <summary>Where is my data stored?</summary>
+        <p>Everything you enter is stored locally on your iPhone, inside the App's sandbox. If you delete the App, the data is removed. You can also use the in-app "Reset all data" control.</p>
+      </details>
+      <details>
+        <summary>Can I export my journal?</summary>
+        <p>Yes. Inside the Activity view, you can export your data as JSON or CSV at any time. The file is yours to keep, share, or import into another tool.</p>
+      </details>
+      <details>
+        <summary>Does JPMASTOCK place trades or connect to my brokerage?</summary>
+        <p>No. JPMASTOCK is a record-keeping and journaling tool only. It never connects to exchanges or brokers, never transmits orders, and never holds funds.</p>
+      </details>
+      <details>
+        <summary>Does JPMASTOCK provide investment advice?</summary>
+        <p>No. Nothing in the App constitutes investment advice or a recommendation to buy or sell any security. You are solely responsible for your own investment decisions. Please consult a licensed financial professional.</p>
+      </details>
+      <details>
+        <summary>What permissions does the App request?</summary>
+        <p>The App asks for camera and photo library access only when you attach an image to a trade ticket or note. You can decline and the App continues to work, but you won't be able to attach photos.</p>
+      </details>
+    </div>
+
+    <div class="card" style="margin-top:24px">
+      <h3>Still need help?</h3>
+      <p style="margin:0 0 12px">Send a message and we'll get back to you.</p>
+      <a class="btn" href="mailto:chekinaekaterina093@gmail.com?subject=JPMASTOCK%20Support%20Request">Email chekinaekaterina093@gmail.com</a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container foot">
+    <div>© 2026 JPMASTOCK · A private journal for overseas stock activity.</div>
+    <ul>
+      <li><a href="privacy.html">Privacy</a></li>
+      <li><a href="terms.html">Terms of Use</a></li>
+      <li><a href="index.html">Home</a></li>
+    </ul>
+  </div>
+</footer>
+
+</body>
+</html>
